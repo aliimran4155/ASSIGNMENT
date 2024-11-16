@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #333 url('Все\ работы\ авторские\,\ делаю\ для\ своей\ группы\ вк\ https___vk_com_land_of_art.png') no-repeat center center/cover;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo span {
+    color: #00bfa5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.contact-form {
+    background: #00bfa5;
+    padding: 2em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.contact-form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+/* Organization Section */
+.organization {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.member img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+/* Footer Section */
+.footer-content {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.footer-columns .column {
+    margin: 0 1em;
+}
